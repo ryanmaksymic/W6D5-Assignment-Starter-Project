@@ -15,7 +15,26 @@
 		2A3561481FDCF496007EEEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3561471FDCF496007EEEDC /* Assets.xcassets */; };
 		2A35614B1FDCF496007EEEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3561491FDCF496007EEEDC /* LaunchScreen.storyboard */; };
 		2A3BA9C31FEB428200B29939 /* PerformanceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3BA9C21FEB428200B29939 /* PerformanceDataModel.swift */; };
+		FED1B00D2040787100B16BDC /* w6d5_ui_performance_testingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1B00C2040787100B16BDC /* w6d5_ui_performance_testingUITests.swift */; };
+		FED1B01B204086F400B16BDC /* w6d5_ui_performance_testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED1B01A204086F400B16BDC /* w6d5_ui_performance_testingTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FED1B00F2040787100B16BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3561301FDCF496007EEEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3561371FDCF496007EEEDC;
+			remoteInfo = "w6d5-ui-performance-testing";
+		};
+		FED1B01D204086F400B16BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A3561301FDCF496007EEEDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A3561371FDCF496007EEEDC;
+			remoteInfo = "w6d5-ui-performance-testing";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2A3561381FDCF496007EEEDC /* w6d5-ui-performance-testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "w6d5-ui-performance-testing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,10 +47,30 @@
 		2A35614A1FDCF496007EEEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A35614C1FDCF496007EEEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A3BA9C21FEB428200B29939 /* PerformanceDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceDataModel.swift; sourceTree = "<group>"; };
+		FED1B00A2040787100B16BDC /* w6d5-ui-performance-testingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "w6d5-ui-performance-testingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED1B00C2040787100B16BDC /* w6d5_ui_performance_testingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = w6d5_ui_performance_testingUITests.swift; sourceTree = "<group>"; };
+		FED1B00E2040787100B16BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED1B018204086F400B16BDC /* w6d5-ui-performance-testingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "w6d5-ui-performance-testingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED1B01A204086F400B16BDC /* w6d5_ui_performance_testingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = w6d5_ui_performance_testingTests.swift; sourceTree = "<group>"; };
+		FED1B01C204086F400B16BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2A3561351FDCF496007EEEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED1B0072040787100B16BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED1B015204086F400B16BDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				2A35613A1FDCF496007EEEDC /* w6d5-ui-performance-testing */,
+				FED1B00B2040787100B16BDC /* w6d5-ui-performance-testingUITests */,
+				FED1B019204086F400B16BDC /* w6d5-ui-performance-testingTests */,
 				2A3561391FDCF496007EEEDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				2A3561381FDCF496007EEEDC /* w6d5-ui-performance-testing.app */,
+				FED1B00A2040787100B16BDC /* w6d5-ui-performance-testingUITests.xctest */,
+				FED1B018204086F400B16BDC /* w6d5-ui-performance-testingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +114,24 @@
 				2A35613D1FDCF496007EEEDC /* w6d3_fetchedresultscontroller.xcdatamodeld */,
 			);
 			path = "w6d5-ui-performance-testing";
+			sourceTree = "<group>";
+		};
+		FED1B00B2040787100B16BDC /* w6d5-ui-performance-testingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FED1B00C2040787100B16BDC /* w6d5_ui_performance_testingUITests.swift */,
+				FED1B00E2040787100B16BDC /* Info.plist */,
+			);
+			path = "w6d5-ui-performance-testingUITests";
+			sourceTree = "<group>";
+		};
+		FED1B019204086F400B16BDC /* w6d5-ui-performance-testingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FED1B01A204086F400B16BDC /* w6d5_ui_performance_testingTests.swift */,
+				FED1B01C204086F400B16BDC /* Info.plist */,
+			);
+			path = "w6d5-ui-performance-testingTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,19 +154,65 @@
 			productReference = 2A3561381FDCF496007EEEDC /* w6d5-ui-performance-testing.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FED1B0092040787100B16BDC /* w6d5-ui-performance-testingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED1B0132040787100B16BDC /* Build configuration list for PBXNativeTarget "w6d5-ui-performance-testingUITests" */;
+			buildPhases = (
+				FED1B0062040787100B16BDC /* Sources */,
+				FED1B0072040787100B16BDC /* Frameworks */,
+				FED1B0082040787100B16BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED1B0102040787100B16BDC /* PBXTargetDependency */,
+			);
+			name = "w6d5-ui-performance-testingUITests";
+			productName = "w6d5-ui-performance-testingUITests";
+			productReference = FED1B00A2040787100B16BDC /* w6d5-ui-performance-testingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FED1B017204086F400B16BDC /* w6d5-ui-performance-testingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED1B01F204086F400B16BDC /* Build configuration list for PBXNativeTarget "w6d5-ui-performance-testingTests" */;
+			buildPhases = (
+				FED1B014204086F400B16BDC /* Sources */,
+				FED1B015204086F400B16BDC /* Frameworks */,
+				FED1B016204086F400B16BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED1B01E204086F400B16BDC /* PBXTargetDependency */,
+			);
+			name = "w6d5-ui-performance-testingTests";
+			productName = "w6d5-ui-performance-testingTests";
+			productReference = FED1B018204086F400B16BDC /* w6d5-ui-performance-testingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2A3561301FDCF496007EEEDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Roland;
 				TargetAttributes = {
 					2A3561371FDCF496007EEEDC = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+					};
+					FED1B0092040787100B16BDC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A3561371FDCF496007EEEDC;
+					};
+					FED1B017204086F400B16BDC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2A3561371FDCF496007EEEDC;
 					};
 				};
 			};
@@ -123,6 +230,8 @@
 			projectRoot = "";
 			targets = (
 				2A3561371FDCF496007EEEDC /* w6d5-ui-performance-testing */,
+				FED1B0092040787100B16BDC /* w6d5-ui-performance-testingUITests */,
+				FED1B017204086F400B16BDC /* w6d5-ui-performance-testingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +244,20 @@
 				2A35614B1FDCF496007EEEDC /* LaunchScreen.storyboard in Resources */,
 				2A3561481FDCF496007EEEDC /* Assets.xcassets in Resources */,
 				2A3561461FDCF496007EEEDC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED1B0082040787100B16BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED1B016204086F400B16BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +276,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FED1B0062040787100B16BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED1B00D2040787100B16BDC /* w6d5_ui_performance_testingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED1B014204086F400B16BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED1B01B204086F400B16BDC /* w6d5_ui_performance_testingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FED1B0102040787100B16BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3561371FDCF496007EEEDC /* w6d5-ui-performance-testing */;
+			targetProxy = FED1B00F2040787100B16BDC /* PBXContainerItemProxy */;
+		};
+		FED1B01E204086F400B16BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A3561371FDCF496007EEEDC /* w6d5-ui-performance-testing */;
+			targetProxy = FED1B01D204086F400B16BDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2A3561441FDCF496007EEEDC /* Main.storyboard */ = {
@@ -312,6 +464,72 @@
 			};
 			name = Release;
 		};
+		FED1B0112040787100B16BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4M5EG9HS8;
+				INFOPLIST_FILE = "w6d5-ui-performance-testingUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmaksymic.w6d5-ui-performance-testingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "w6d5-ui-performance-testing";
+			};
+			name = Debug;
+		};
+		FED1B0122040787100B16BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4M5EG9HS8;
+				INFOPLIST_FILE = "w6d5-ui-performance-testingUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmaksymic.w6d5-ui-performance-testingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "w6d5-ui-performance-testing";
+			};
+			name = Release;
+		};
+		FED1B020204086F400B16BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4M5EG9HS8;
+				INFOPLIST_FILE = "w6d5-ui-performance-testingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmaksymic.w6d5-ui-performance-testingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/w6d5-ui-performance-testing.app/w6d5-ui-performance-testing";
+			};
+			name = Debug;
+		};
+		FED1B021204086F400B16BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4M5EG9HS8;
+				INFOPLIST_FILE = "w6d5-ui-performance-testingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryanmaksymic.w6d5-ui-performance-testingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/w6d5-ui-performance-testing.app/w6d5-ui-performance-testing";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +547,24 @@
 			buildConfigurations = (
 				2A3561501FDCF496007EEEDC /* Debug */,
 				2A3561511FDCF496007EEEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED1B0132040787100B16BDC /* Build configuration list for PBXNativeTarget "w6d5-ui-performance-testingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED1B0112040787100B16BDC /* Debug */,
+				FED1B0122040787100B16BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED1B01F204086F400B16BDC /* Build configuration list for PBXNativeTarget "w6d5-ui-performance-testingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED1B020204086F400B16BDC /* Debug */,
+				FED1B021204086F400B16BDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
